@@ -1,5 +1,5 @@
 
-function findPrime(...numbers) {
+function findPrimeNum(...numbers) {
     let bolunen = numbers;
     let bolen = [];
     let sayac;
@@ -11,14 +11,14 @@ function findPrime(...numbers) {
             }
         }
         if (sayac == 0) {
-            console.log(bolunen[i] + "-->bir asal sayidir");
+            console.log(bolunen[i] + " bir asal sayidir");
         } else {
-            console.log(bolunen[i] + "-->asal sayi değildir ");
+            console.log(bolunen[i] + " asal sayi değildir ");
         }
     }
 }
 
-findPrime(5, 11, 15, 52, 63, 107);
+findPrimeNum(5, 11, 15, 52, 63, 107);
 
 console.log("** ** ** ** ** ** ** ** ** ** ** ** ")
   
